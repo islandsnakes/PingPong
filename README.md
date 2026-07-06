@@ -59,8 +59,10 @@ The game is designed for local versus multiplayer sharing a single keyboard:
 
 ## 📄 License
 
-This project is licensed under the **MIT License**.
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
 
 You are free to use, copy, modify, merge, publish, or distribute this code for personal, educational, or commercial purposes. The only condition is that the original copyright and permission notice must be included in all copies or substantial portions of the software.
 
-*Note: The SFML library itself is distributed under its own permissive zlib/libpng license.*
+### Third-Party Licenses
+This project relies on the **SFML 3** library, which is distributed under the permissive **zlib/libpng license**. 
+SFML itself may depend on other open-source libraries (such as FreeType, OpenAL, libogg, and libvorbis) distributed under their respective open-source licenses. For full details, please refer to the [SFML License page](https://www.sfml-dev.org/license.php).
