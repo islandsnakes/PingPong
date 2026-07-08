@@ -3,15 +3,6 @@
 #include "Player.hpp"
 #include "Ball.hpp"
 
-// Fix SFML linker bug
-namespace sf {
-#pragma warning(push)
-#pragma warning(disable: 4506)
-	__declspec(selectany) const RenderStates RenderStates::Default{};
-	__declspec(selectany) const BlendMode BlendAlpha {};
-#pragma warning(pop)
-}
-
 int main()
 {
 	srand(static_cast<unsigned int>(time(nullptr)));
